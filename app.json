@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MagicLabs",
+    "slug": "magiclabs",
+    "privacy": "unlisted",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.ps.magiclabs"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "primaryColor": "#D80C2D",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover", 
+      "backgroundColor": "#D80C2D"
+    },
+    "updates": {  
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true 
+    }
+  }
+}
